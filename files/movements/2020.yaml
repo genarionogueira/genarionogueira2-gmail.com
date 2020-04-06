@@ -1,0 +1,66 @@
+'2020-03-03':
+  date: '2020-03-03'
+  order: 21.0
+  order_type: Buy
+  price: 74.53
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 27.0
+  symbol: GILD
+  term: Day
+  type: Stock/ETF
+'2020-03-04':
+  date: '2020-03-04'
+  order: 22.0
+  order_type: Buy
+  price: 1366.64
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 3.0
+  symbol: GOOGL
+  term: Day
+  type: Stock/ETF
+'2020-03-05':
+  date: '2020-03-05'
+  order: 23.0
+  order_type: Buy
+  price: 1934.5
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 2.0
+  symbol: AMZN
+  term: Day
+  type: Stock/ETF
+'2020-03-06':
+  date: '2020-03-06'
+  order: 26.0
+  order_type: Buy
+  price: 29.0802
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 68.0
+  symbol: MRNA
+  term: Day
+  type: Stock/ETF
+'2020-03-16':
+  date: '2020-03-16'
+  order: 27.0
+  order_type: Buy
+  price: 21.998
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 22.0
+  symbol: PTON
+  term: Day
+  type: Stock/ETF
+'2020-03-30':
+  date: '2020-03-30'
+  order: 30.0
+  order_type: Buy
+  price: 255.55
+  price_type: Mkt
+  price_type.1: Mkt
+  quantity: 3.0
+  symbol: AAPL
+  term: Day
+  type: Stock/ETF
