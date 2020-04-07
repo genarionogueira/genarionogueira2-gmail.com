@@ -1,21 +1,23 @@
 class command():
-    # def __init__(self,function,params, help,name,*args,**kwargs):
+    def __init__(self,function,name,params,*args,**kwargs):
 
-    #     self.function = function
-    #     self.params = params
-    #     self.help = help
+        self.function = function
+        self.name = name
+        self.params = params        
 
     def evaluate(self, args):
         '''
         evaluate the command and check if it is goona be called
         '''
         if args[1] == self.function:
-            self.function(**{self.args[2:]})
+            self.function()
+
     def argsFormat(self, args):
 
         aux_args = args.copy()
         func_name = aux_args.pop()
         params = {}
+
         #get the keys
         for p in aux_args:
             if '-' in p:
@@ -29,10 +31,13 @@ class command():
         
         return {func_name:params}
 
-obj = command()
-print(obj.argsFormat(['app.py','test_function','-h','-name','genario','-last_name','nogueira']))
+def hello_world(name):
+    print('Hello World {name}'.format(name))
 
-
+import sys
+if __name__=="__main__":
+    cmdHelloWorld = command(hello_world,'mycmdhelloworld',{'name':' Name that is going to be printed '})
+    cmdHelloWorld.evaluate(sys)
 
 
 
